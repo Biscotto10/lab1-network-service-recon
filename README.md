@@ -23,13 +23,3 @@ The evidence folder contains the 30 original screenshots taken while doing the l
 My Kali machine has the address 192.168.119.4/24 on interface eth0.
 The Metasploitable 2 machine has the address 192.168.119.3 on interface eth0.
 Both machines are on the same isolated network, 192.168.119.0/24.
-
-## How to push this repository to my GitHub account
-
-A git repository has already been initialised locally with a first commit on the main branch. To push it to my own GitHub account, I first need to create an empty repository on GitHub (without README or license), then run:
-
-```
-cd lab1-network-service-recon
-git remote add origin https://github.com/my-username/lab1-network-service-recon.git
-git push -u origin main
-```
